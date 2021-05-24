@@ -37,19 +37,22 @@ The supplied plugins currently include the following:
 
 ## Development Environment Installation and Configuration
 
-1. Edit the shortcuts and change the Uniface installation location (don't forget to change the /adm switch as well) and working folder if needed
-2. Edit your assignment file (e.g. IDE.ASN) if needed (probably not required as paths are relative)
-3. Import the source code into your repository using the WAS plugin.
-4. Compile the PLUGIN_SAMPLES project using the build shortcut.
+1. The supplied shortcuts assume a default Uniface 10 Community Edition install in **C:\Program Files (x86)\Uniface 10 Community Edition**. If your Uniface installation differs, edit the shortcuts and change the Uniface installation location (don't forget to change the **/adm** switch as well) and working folder if needed.
+2. Edit your assignment file specified in your shortcut with the **/asn** switch (e.g. **.\asn\ide.asn**) if needed.
+   Paths to related files are relative to the shortcut working folder, and the supplied assignment file assumes that the WASListener is installed in the Uniface installation folder. If this is not the case, then you will need to change the assignment file accordingly.
+3. Start the IDE and load the default templates using the supplied shortcut.
+4. From the main menu select **Import WorkArea** to import the source code export files into your repository.
+5. To resolve messages about being unable to find the resources for the plugins within the development environment, Compile the **PLUGIN_SAMPLES** project using the build shortcut to populate the **reources** folder and close the IDE.
+6. Using the Build shortcut, type **/all** at the command line to compile **PLUGIN-SAMPLES.uar**.
 
 ## Configuration for use
 
-- Modify the assignment file of your target development environment (e.g. IDE.asn) as follows:
+- Modify the assignment file of your target development environment (e.g. IDE.asn) as follows, modifying the location as needed:
 
   - Add **PLUGIN-SAMPLES.uar** to the **\[RESOURCES\]** section:
 
         [RESOURCES]
-        .\uar\PLUGIN-SAMPLES.uar
+        ..\plugin-samples\PLUGIN-SAMPLES.uar
 
   - Add or modify **[LOGICALS]** to include the desired plug-ins:
 
