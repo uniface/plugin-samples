@@ -2,6 +2,7 @@ ide_state.zip
 Server Debug.lnk
 UDBG.CNF
 *.uar
+.WASListener.lock
 asn/ide.ini
 asn/urouter.asn
 asn/setup.asn

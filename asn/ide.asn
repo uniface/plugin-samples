@@ -2,6 +2,7 @@
 ; as it is loaded from bottom up instead of top-down
 [RESOURCES]
 ;PLUGIN-SAMPLES.uar
+usys:VersionControl.uar
 resources
 
 #file USYSADM:ide.asn
@@ -26,6 +27,9 @@ IDETITLE=Uniface 10.3 Custom Worksheet Development
 
 ; Custom worksheets
 IDE_DEFINE_WORKSHEETS_CPT=WS_LISTING,WS_CHECKSTYLE,WS_STATISTICS
+
+; Add WAS listener resources to menu
+IDE_DEFINE_USERMENUS=VC_UPDATED
 
 ; By default, the templates and palettes used in the Resource Browsers cannot 
 ; be opened in an editor. If the user wants to create and maintain user defined 
