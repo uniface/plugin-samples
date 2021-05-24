@@ -10,12 +10,12 @@ asn/include.asn
 asn/*.bak.asn
 cmi/*.cmi
 dbms/*.db
-dtd/
-export/
-lst/
-log/
+dtd/*.dtd
+export/*.xml
+lst/*.*lst
+log/*.log
 sym/*.*sym
-resources/
+resources/*
 web/dspjs/
 web/WEB-INF/web.xml
 */archive/
