@@ -3,8 +3,9 @@ IDE Plugin Samples
 
 Samples of custom worksheets for the Uniface 10.3 IDE, similar to those included in <https://community.uniface.com/display/DOW/Uniface+10.3+IDE+Utilities>.
 
-They can be used to explore how IDE add-ins work, or as a basis for adding features or building your own.
-
+They can be used to explore how IDE add-ins work, or as a basis for adding features or building your own. See the [documentation](https://documentation.uniface.com/10/uniface/ide/customizingIDE/ideWorksheetPlugin/aboutWorksheetPlugIns.htm?tocpath=Managing%20Development%7CIDE%20Worksheet%20Plug-Ins%7C_____0)
+ for more information on the IDE Worksheet Plugin API. 
+ 
 ## Contents
 
 The supplied plugins currently include the following:
@@ -20,7 +21,7 @@ The supplied plugins currently include the following:
 ### Checkstyle (WS_CHECKSTYLE)
 
 - Analyzes code and reports standards contraventions.
-- The supplied code performs basic changes that entries start with *l* for local proc. You can also check operation names (e.g. *op* prefix) in a similar manner (not enabled by default).
+- The supplied code performs basic changes that entries start with *l* for local proc. You can also check operation names (e.g. *op* prefix) in a similar manner (not enabled by default). The logical assignments **WS_CHECKSTYLE_ENTRY_PREFIX** and **WS_CHECKSTYLE_OPERATION_PREFIX** can be used to change the prefixes used, or you can modify the defaults and script in **operation analyzeCode**
     
 ### View Statitics (WS_STATISTICS)
 
@@ -47,9 +48,9 @@ The supplied plugins currently include the following:
 
 ## Configuration for use
 
-- Modify the assignment file of your target development environment (e.g. IDE.asn) as follows, modifying the location as needed:
+- Modify the assignment file of your target development environment (e.g. IDE.asn) as follows:
 
-  - Add **PLUGIN-SAMPLES.uar** to the **\[RESOURCES\]** section:
+  - Add **PLUGIN-SAMPLES.uar** to the **\[RESOURCES\]** section, modifying the location as needed. Note: to avoid odd behavior, add the **RESOURCES** section at the top of your assignment file before including other assignment files with #file:
 
         [RESOURCES]
         ..\plugin-samples\PLUGIN-SAMPLES.uar
