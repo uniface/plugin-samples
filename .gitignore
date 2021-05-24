@@ -1,9 +1,12 @@
 ide_state.zip
 Server Debug.lnk
 UDBG.CNF
+*.uar
 asn/ide.ini
 asn/urouter.asn
 asn/setup.asn
+asn/include.asn
+asn/*.bak.asn
 cmi/*.cmi
 dbms/*.db
 dtd/

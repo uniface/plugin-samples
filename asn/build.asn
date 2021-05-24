@@ -1,0 +1,42 @@
+; When using DICT model, you need to define your resources before the Uniface standard UAR's
+; as it is loaded from bottom up instead of top-down
+[RESOURCES]
+;PLUGIN-SAMPLES.uar
+resources
+
+#file USYSADM:ide.asn
+
+#file .\asn\dbms.asn
+
+[SETTINGS]
+$putmess_logfile        log\build%p.log
+$resources_output       PLUGIN-SAMPLES.uar
+;$resources_output       resources
+$listing_level			2
+
+[FILES]
+*.cmi   cmi\*.cmi
+*.dtd   dtd\*.dtd
+*.*lst	lst\*.*lst
+*.*sym	sym\*.*sym
+
+[LOGICALS]
+
+; Command spawned to test WEB components (USP and DSP). Default value if this logical is not explicitly defined:
+;TEST_COMMAND_CPT_WEB = cmd /c start http://localhost:%TomcatPort/uniface/wrd/%CptName
+TEST_COMMAND_CPT_WEB = cmd /c start http://localhost:8030/pr/wrd/%CptName
+; Command spawned to test (non-WEB) components. Default value if this logical is not explicitly defined:
+;TEST_COMMAND_CPT = %ExeFile /adm=%AdmDir /dir=%WorkDir /asn=%AsnFile /ini=%IniFile /tst %CptName
+
+IDETITLE=Uniface 10.3 Custom Worksheet Development
+
+; By default, the templates and palettes used in the Resource Browsers cannot 
+; be opened in an editor. If the user wants to create and maintain user defined 
+; templates and palettes, the setting 'allow_browse_templates' to browse and 
+; open templates should be enabled: default/disabled = 0 ; enabled = 1
+; NOTE: Templates and palettes provided by Uniface should not be modified
+; without understanding the impact of such modifications.
+
+allow_browse_templates = 0
+;allow_browse_templates = 1
+
