@@ -1,0 +1,18 @@
+ide_state.zip
+Server Debug.lnk
+UDBG.CNF
+asn/ide.ini
+asn/urouter.asn
+asn/setup.asn
+cmi/*.cmi
+dbms/*.db
+dtd/
+export/
+lst/
+log/
+sym/*.*sym
+resources/
+web/dspjs/
+web/WEB-INF/web.xml
+*/archive/
+*/backup/
