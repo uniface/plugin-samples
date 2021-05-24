@@ -1,0 +1,902 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.3" repversion="7" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="3" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_ACCESS" seqno="4" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="14" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="15" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="16" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="17" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="18" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="19" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="20" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="21" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="22" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="23" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="24" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="25" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="26" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="27" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UINHERIT" seqno="28" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="29" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="30" type="S" level="2" pack="1" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPURPOSE" seqno="31" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="32" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="33" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="62" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="ATTACHED" seqno="63" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2021-05-21T16:38:39.00</DAT>
+<DAT name="ULABEL">WS_CHECKSTYLE</DAT>
+<DAT name="FTYP">Q</DAT>
+<DAT name="DATA_ACCESS">N</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">3</DAT>
+<DAT name="WVPOS">0</DAT>
+<DAT name="WHPOS">0</DAT>
+<DAT name="WVSIZ">0</DAT>
+<DAT name="WHSIZ">0</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="MOVABLE">N</DAT>
+<DAT name="HIDESTACK">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">0</DAT>
+<DAT name="UDECLARATIONS" xml:space='preserve'>;#define TRACE
+;#define DEFAULT_OPERATION_PREFIX=op
+#define DEFAULT_ENTRY_PREFIX=l
+
+variables
+  string  URL
+  string  EntryPrefix, OperationPrefix
+  numeric EntryPrefixLen, OperationPrefixLen
+endvariables</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>;------------------------------------------
+; Return API version: Mandatory operation
+;------------------------------------------
+operation getVersion
+params
+  numeric pApiVersion : out
+endparams
+
+  pApiVersion = 1
+
+end ; getVersion
+
+
+;-------------------------------------------------------
+; Return Worksheet Title &amp; Toolip - Mandatory operation
+;-------------------------------------------------------
+operation getWorkSheetOptions
+params
+  struct pWorkSheet : out
+endparams
+
+  pWorkSheet = $newstruct
+  pWorkSheet-&gt;title = "Checkstyle"
+  pWorkSheet-&gt;tooltip = "Check code"
+
+end ; getWorkSheetOptions
+
+
+;-------------------------------------------------------
+; Activate Worksheet - Mandatory operation
+;-------------------------------------------------------
+operation ws_activate
+params
+  string pUrl : in
+endparams
+variables
+  string vOutput, vType, vLabel
+  numeric vStatus
+endvariables
+
+  $URL$ = pUrl
+  vStatus = $split(pUrl, 1, ":", vType, vLabel)
+
+#ifdefined TRACE
+  activate "IDE_API_1".outputMessage(vOutput)
+  if ($procerror != 0)
+    putmess "Activate error: %%$procerror%%%, %%$procerrorcontext%%%"
+  endif
+#endif
+
+  edit/nonmodal
+
+end ; ws_activate
+
+;-------------------------------------------------------
+; Disable Accept and Quit triggers
+;-------------------------------------------------------
+trigger accept
+  return -1
+end ; accept
+
+trigger quit
+  return -1
+end ; quit
+
+
+;-------------------------------------------------------
+; Worksheet Visible: optional
+; Analyze code and report non-standard items
+; (currently component entries that don't start with l)
+;-------------------------------------------------------
+operation ws_getsVisible
+
+  $instancehandle-&gt;analyzeCode($URL$)
+#ifdefined TRACE
+  activate "IDE_API_1".outputMessage("Worksheet Gets Visible (instance=%%$instancename)")
+#endif
+  if ($procerror != 0)
+    putmess "Activate error: %%$procerror%%%, %%$procerrorcontext%%%"
+  endif
+  
+end ; ws_getsVisible
+
+
+;-------------------------------------------------------
+; Worksheet Invisible: optional
+;-------------------------------------------------------
+operation ws_getsInVisible
+#ifdefined TRACE
+  activate "IDE_API_1".outputMessage("Worksheet Gets InVisible (instance=%%$instancename)")
+  if ($procerror != 0)
+    putmess "Activate error: %%$procerror%%%, %%$procerrorcontext%%%"
+  endif
+#endif
+end  ; ws_getsInVisible
+
+
+;-------------------------------------------------------
+; Refresh: optional
+;-------------------------------------------------------
+operation ws_refresh
+
+  $instancehandle-&gt;analyzeCode($URL$)
+#ifdefined TRACE
+  activate "IDE_API_1".outputMessage("Refresh Worksheet requested (instance=%%$instancename)")
+#endif
+  if ($procerror != 0)
+    putmess "Activate error: %%$procerror%%%, %%$procerrorcontext%%%"
+  endif
+  
+end ; ws_refresh
+
+
+;-------------------------------------------------------
+; Object renamed: optional
+;-------------------------------------------------------
+operation ws_objectRenamed
+params
+  string pUrl : in
+endparams
+
+#ifdefined TRACE
+  activate "IDE_API_1".outputMessage("Main Udo renamed (Url=%%pUrl).")
+  if ($procerror != 0)
+    putmess "Activate error: %%$procerror%%%, %%$procerrorcontext%%%"
+  endif
+#endif
+
+  $URL$ = pUrl
+
+end ; ws_objectRenamed
+
+
+;-------------------------------------------------------
+; Perform analysis
+; - creates occurrences of E.N for issues found
+;-------------------------------------------------------
+partner operation analyzeCode
+params
+  string pUrl: in
+endparams
+variables
+  string  vType, vEntity, vObjectName
+  string  vObjectType, vObjectLabel, vObjectGroup, vObjectModel, vModeled
+  numeric vStatus, vComponentEntityCount, vModeledEntityCount, vComponentFieldCount, vModeledFieldCount, vFirstEntity, vFirstField
+  string  vComponentEntityList, vModeledEntityList, vComponentFieldList, vModeledFieldList
+  string  vComponentEntityNames, vModeledEntityNames, vComponentFieldNames, vModeledFieldNames
+endvariables
+
+  $EntryPrefix$ = $logical("WS_CHECKSTYLE_ENTRY_PREFIX")
+#ifdefined DEFAULT_ENTRY_PREFIX
+  if ($EntryPrefix$ = "")
+    $EntryPrefix$ = "&lt;DEFAULT_ENTRY_PREFIX&gt;"
+  endif
+#endif
+  $EntryPrefixLen$ = $length($EntryPrefix$)
+
+  $OperationPrefix$ = $logical("WS_CHECKSTYLE_OPERATION_PREFIX")
+#ifdefined DEFAULT_OPERATION_PREFIX
+  if ($OperationPrefix$ = "")
+    $OperationPrefix$ = "&lt;DEFAULT_OPERATION_PREFIX&gt;"
+  endif
+#endif
+  $OperationPrefixLen$ = $length($OperationPrefix$)
+
+  vObjectType  = ""
+  vObjectLabel = ""
+  vObjectGroup = ""
+  vObjectModel = ""
+  vModeled     = ""
+
+  vStatus = $split(pUrl, 1, ":", vType, vObjectName)
+  if (vType != "cpt")
+    return 0
+  endif
+  
+  clear/e "E.N"
+  clear/e "UFORM.DICT"
+  ULABEL.UFORM/init = vObjectName
+  retrieve/e "UFORM"
+  if ($status = 0)
+	call lCheckCode(ULABEL.UFORM, "", "", USCRIPT.UFORM, "USCRIPT")
+	if (!$empty(UXGROUP.DICT))
+		forentity "UXGROUP"
+			vEntity = $concat(ULABEL.UXGROUP, ".", UBASE.UXGROUP)
+			call lCheckCode(ULABEL.UFORM, vEntity, "", UCOLL_SCRIPT.UXGROUP, "UCOLL_SCRIPT")
+			call lCheckCode(ULABEL.UFORM, vEntity, "", UOCC_SCRIPT.UXGROUP,  "UOCC_SCRIPT")
+			if (!$empty(UXFIELD.DICT))
+				forentity "UXFIELD"
+					call lCheckCode(ULABEL.UFORM, vEntity, ULABEL.UXFIELD, USCRIPT.UXFIELD, "USCRIPT")
+				endfor
+			endif
+		endfor
+	endif
+  endif
+  clear/e "UFORM"
+  setocc "E", 1
+
+end ; analyzeCode
+
+
+;------------------------------------------------------------
+; Analyze a block of code and add non-conformant to list
+;------------------------------------------------------------
+entry lCheckCode
+params
+	string pComponent : IN
+	string pEntity    : IN
+	string pField     : IN
+	string pCode      : IN
+    string pType      : IN
+endparams
+variables
+  string  vScriptList, vLine, vName, vModuleType, vIssue
+  numeric vLineNo
+endvariables
+
+	vScriptList = $replace(pCODE, 1, "%%^", "&uSEP;", -1)
+	forlist vLine, vLineNo in vScriptList
+		vIssue = ""
+		if ($EntryPrefix$ != "" | $OperationPrefix$ != "")
+			call lGetModuleName(vLine, vName, vModuleType)
+			if (vName != "")
+				selectcase vModuleType
+					case "entry"
+						if ($EntryPrefixLen$ &gt; 0 &amp; vName[1:$EntryPrefixLen$] != $EntryPrefix$)
+							vIssue = $concat("entry name should start with ", $EntryPrefix$)
+						endif
+					case "operation"
+						if ($OperationPrefixLen$ &gt; 0 &amp; vName[1:$EntryPrefixLen$] != $OperationPrefix$)
+							vIssue = $concat("operation name should start with ", $OperationPrefix$)
+						endif
+				endselectcase
+			endif
+		endif
+		if (vIssue != "")
+			creocc "E.N", -1
+			;debug
+			if (pEntity = "")
+				; Component trigger
+				LOC.E = $concat($URL$, %\
+						$concat("/prop:", pType), %\
+						$concat("/pos:",  vLineNo, ",1"))
+			elseif (pField = "")
+				; Entity trigger
+				LOC.E = $concat($URL$, %\
+					    $concat("/ent:",  pEntity), %\
+					    $concat("/prop:", pType), %\
+		                $concat("/pos:",  vLineNo, ",1"))
+			else
+				; Field trigger
+				LOC.E = $concat($URL$, $concat("/ent:", pEntity), %\
+		                $concat("/fld:",  pField), %\
+	                    $concat("/prop:", pType), %\
+		                $concat("/pos:",  vLineNo, ",1"))
+			endif
+			ISSUE.E  = vIssue
+			SCRIPT.E = vLine
+			;Examples of output formatting with color
+			;if (pModeled = "modeled")
+			;  $fieldproperties(label.e) = "BACKCOLOR=cornflowerblue&uSEP;FORECOLOR=white"
+			;endif
+			;if (pField != "")
+			;  $fieldproperties(FLD.E) = "FORECOLOR=darkblue"
+			;elseif (ENT.E != "")
+			;  $fieldproperties(ENT.E) = "FORECOLOR=darkblue"
+			;else
+			;  $fieldproperties(CPT.E) = "FORECOLOR=darkblue"
+			;endif
+			;$fieldproperties(LOC.E)   = "FORECOLOR=darkblue"
+			;$fieldproperties(ISSUE.E) = "FORECOLOR=red"
+		endif
+	endfor
+
+end ; lCheckCode
+
+
+;------------------------------------------------------------
+; Analyze a line of code and return module name if applicable
+; Note: currently only parses entry and operation
+;       could be enhanced to return triggers
+;------------------------------------------------------------
+entry lGetModuleName
+params
+	string pLine       : IN
+	string pName       : OUT
+	string pModuleType : OUT
+endparams
+variables
+	string  vChar
+	numeric vLen, vPos
+endvariables
+
+	vLen = $length(pLine)
+	if (vLen &gt; 0)
+		; Ignore leading whitespace
+		vPos = 1
+		while (vPos &lt; vLen)
+			vChar = pLine[vPos:1]
+			if (vChar != " " &amp; vChar != "	") break
+			vPos += 1
+		endwhile
+		; Check if entry or operation
+		if (pLine[vPos:5] = 'entry')
+			pModuleType = "entry"
+			pName = lExtractModuleName(pLine, vLen, vpos+5)
+		elseif (pLine[vPos:9] = 'operation')
+			pModuleType = "operation"
+			pName = lExtractModuleName(pLine, vLen, vpos+9)
+		endif
+	endif
+
+end ; lpGetEntryName
+
+
+;-----------------------------------------
+; Extract module name from a line of code
+;-----------------------------------------
+entry lExtractModuleName
+returns string
+params
+	string  pLine : IN
+	string  pLen  : IN
+	numeric pPos  : IN
+endparams
+variables
+	string  vChar, vName
+	numeric vPos
+endvariables
+
+	if ((pLine[pPos:1] = " " | pLine[pPos:1] = "	"))
+		pPos += 1
+		; Ignore whitespace between module and name, and stop at comment
+		vChar = pLine[pPos:1]
+		while (pPos &lt; pLen &amp; (vChar = " " | vChar = "	") &amp; vChar != ";")
+			pPos += 1
+			vChar = pLine[pPos:1]
+		endwhile
+		; Extract name
+		vPos = pPos
+		while (vPos &lt; pLen &amp; vChar != " " &amp; vChar != "	" &amp; vChar != ";")
+			vPos += 1
+			vChar = pLine[vPos]
+		endwhile
+		vName = $ltrim(pLine[pPos, vPos], " ")
+	endif
+	return vName
+
+end ; lExtractModuleName
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+  &uFRM;TYP=L&uSEP;NAM=SCRIPT.E&uSEP;WID=26&uSEP;HEI=1&uSEP;CAR=IDFButtonText&uSEP;LAB=Script&uFRM;  &uFRM;TYP=E&uSEP;NAM=UFORM.DICT&uSEP;WID=14&uSEP;HEI=1&uSEP;HOC=14&uSEP;VOC=1&uSEP;BAR=N&uFRM; &uFRM;TYP=E&uSEP;NAM=UXGROUP.DICT&uSEP;WID=12&uSEP;HEI=1&uSEP;HOC=12&uSEP;VOC=1&uSEP;BAR=N&uFRM;  &uFRM;TYP=E&uSEP;NAM=UCGROUP.DICT&uSEP;WID=2&uSEP;HEI=1&uSEP;HOC=2&uSEP;VOC=1&uFRM;  &uFRM;TYP=E&uSEP;NAM=UXFIELD.DICT&uSEP;WID=4&uSEP;HEI=1&uSEP;HOC=4&uSEP;VOC=1&uSEP;BAR=N&uFRM; &uFRM;TYP=E&uSEP;NAM=UCFIELD.DICT&uSEP;
+&uBS;WID=1&uSEP;HEI=1&uSEP;HOC=1&uSEP;VOC=1&uFRM;                           &uFRM;TYP=L&uSEP;NAM=ISSUE.E&uSEP;WID=18&uSEP;HEI=1&uSEP;CAR=IDFButtonText&uSEP;LAB=Issue&uFRM;                        &uFRM;TYP=L&uSEP;NAM=LOC.E&uSEP;WID=11&uSEP;HEI=1&uSEP;CAR=IDFButtonText&uSEP;LAB=Location&uFRM;
+  &uFRM;TYP=E&uSEP;NAM=E.N&uSEP;WID=157&uSEP;HEI=20&uSEP;HOC=157&uSEP;VOC=1&uSEP;BAR=N&uFRM;&uFRM;TYP=F&uSEP;NAM=SCRIPT&uSEP;WID=60&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=ISSUE&uSEP;WID=41&uSEP;HEI=1&uFRM; &uFRM;TYP=F&uSEP;NAM=LOC&uSEP;WID=52&uSEP;HEI=1&uFRM;</DAT>
+<DAT name="WINPROP" xml:space='preserve'>CAPTION=F&uSEP;CANRESIZE=F&uSEP;CANICONIZE=F&uSEP;CANZOOM=F&uSEP;CANCLOSE=F&uSEP;AUTOCLOSE=F&uSEP;SYSMENU=F&uSEP;MODAL=F&uSEP;PAGE=T&uSEP;UTYPE=TAB&uSEP;NOFORMSCROLL=F&uSEP;OKBUTTON=F&uSEP;WINDOWTYPE=TAB</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="UBASE" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="102" />
+<FLD name="UFORM" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UKVERSION" seqno="4" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UMVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UDESCR" seqno="6" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="7" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DB_ACCESS" seqno="8" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="10" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="11" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="12" type="S" level="2" pack="1" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="13" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="14" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="15" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="16" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="17" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UCOLL_SCRIPT" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UOCC_SCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="U_OBJSVC" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">E</DAT>
+<DAT name="UBASE">N</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Empty non-dbms</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="UALT_NAME" xml:space='preserve'>Empty non-dbms</DAT>
+<DAT name="UOCC_SCRIPT" xml:space='preserve'>operation navigateTo
+
+	;activate "IDE_API_1".outputMessage(vURI)
+	activate "IDE_API_1".navigateTo(LOC.E, 0)
+
+end ; navigateTo
+</DAT>
+<DAT name="FRM_WIDGETTYPE">U_NONE</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>FIELDBORDERS=F&uSEP;ATTACH=TOP,BOTTOM,LEFT,RIGHT&uSEP;ROWHEADERSVISIBLE=F&uSEP;COLUMNHEADERSVISIBLE=T&uSEP;KTTONLY=T&uSEP;AUTOSIZEABLE_COLUMN=3&uSEP;BORDERTYPE=NONE&uSEP;DBLCLICK=detail</DAT>
+<DAT name="USP_WIDGETPROPS" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">UCFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">UCGROUP</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">UFORM</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UCOLL_SCRIPT" xml:space='preserve'>entry test_coll_uxform
+end ; entry test_coll_uxform
+</DAT>
+<DAT name="UOCC_SCRIPT" xml:space='preserve'>entry test_occ_uxform
+end ; entry test_occ_uxform
+</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">UXFIELD</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UCOLL_SCRIPT" xml:space='preserve'>
+</DAT>
+<DAT name="UOCC_SCRIPT" xml:space='preserve'>trigger read
+
+if ($dbocc = 0)
+	uform.uxfield/init = ulabel.uform
+endif
+
+read order by "ulabel, grp, ubase"
+
+end</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">UXGROUP</DAT>
+<DAT name="UBASE">DICT</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UCOLL_SCRIPT" xml:space='preserve'>entry test_entcoll
+end ; entry test_entcoll
+</DAT>
+<DAT name="UOCC_SCRIPT" xml:space='preserve'>trigger read
+read order by "ulabel, ubase"
+end</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXFIELD" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="GRP" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,1" />
+<FLD name="UBASE" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,2" />
+<FLD name="UFORM" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="3" ufocc="0" mandatory="yes" idxnum="1,2,3" idxsnr="104,3,1" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="5" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DTYP" seqno="8" type="S" level="2" pack="1" scale="0" length="10"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_STATIC" seqno="9" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="IS_CONTROL" seqno="10" type="S" level="2" pack="1" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_LAYOUT" seqno="11" type="S" level="2" pack="0" scale="0" length="192"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_SYNTAX" seqno="12" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="13" type="S" level="2" pack="0" scale="0" length="256"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="14" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="15" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="16" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UWAORDER" seqno="17" type="N" level="2" pack="7" scale="0" length="5"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="18" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="19" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="20" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="STARTMOD" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="NEXTFLD" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="PREVFLD" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="ENCRYPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="DECRYPT" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="UFORMAT" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DEFORMAT" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="GETFOCUS" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="VCHANGED" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="VLDF" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="UFTRIGGERS" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VALLAB" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="INITVALUE" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">ISSUE</DAT>
+<DAT name="GRP">E</DAT>
+<DAT name="UBASE">N</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Static Text</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">NED</DAT>
+<DAT name="U_INT">W*</DAT>
+<DAT name="UALT_NAME" xml:space='preserve'>Static Text</DAT>
+<DAT name="FRM_WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>FORECOLOR=crimson&uSEP;FRAME=F&uSEP;3D=F&uSEP;DBLCLICK=detail</DAT>
+<DAT name="DSP_WIDGETTYPE">STATICTEXT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">LOC</DAT>
+<DAT name="GRP">E</DAT>
+<DAT name="UBASE">N</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Editbox (Single-line String)</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">ned</DAT>
+<DAT name="U_INT">W*</DAT>
+<DAT name="UALT_NAME" xml:space='preserve'>Editbox (Single-line String)</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>trigger detail
+
+	$occhandle-&gt;NavigateTo()
+
+end
+</DAT>
+<DAT name="FRM_WIDGETTYPE">HYPERLINK</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>FORECOLOR=steelblue4&uSEP;DBLCLICK=detail</DAT>
+<DAT name="DSP_WIDGETTYPE">EDITBOX</DAT>
+<DAT name="USP_WIDGETTYPE">U_INPUT</DAT>
+</OCC>
+<OCC>
+<DAT name="ULABEL">SCRIPT</DAT>
+<DAT name="GRP">E</DAT>
+<DAT name="UBASE">N</DAT>
+<DAT name="UFORM">WS_CHECKSTYLE</DAT>
+<DAT name="UKVERSION">6</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="UDESCR" xml:space='preserve'>Static Text</DAT>
+<DAT name="U_DTYP">S</DAT>
+<DAT name="IS_STATIC">F</DAT>
+<DAT name="IS_CONTROL">F</DAT>
+<DAT name="DATA_SYNTAX">ned</DAT>
+<DAT name="U_INT">W*</DAT>
+<DAT name="UALT_NAME" xml:space='preserve'>Static Text</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>;trigger detail
+;
+;	$occhandle()-&gt;NavigateTo()
+;
+;end ; detail
+
+entry test_field
+end
+</DAT>
+<DAT name="FRM_WIDGETTYPE">NOEDITBOX</DAT>
+<DAT name="FRM_WIDGETPROPS" xml:space='preserve'>FRAME=F&uSEP;3D=F&uSEP;DBLCLICK=detail</DAT>
+<DAT name="DSP_WIDGETTYPE">STATICTEXT</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
