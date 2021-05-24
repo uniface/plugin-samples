@@ -28,7 +28,8 @@ The supplied plugins currently include the following:
 
 ## Dependencies
 
-Uses the Uniface meta dictionary (uniface\misc\umeta.xml in the Uniface installation), which is included in the versioned code.
+- Uses the Uniface meta dictionary (uniface\misc\umeta.xml in the Uniface installation), which is included in the versioned code.
+- The Uniface WASListener is required to import WorkArea export files into the repository database and subsequently synchronize them: https://github.com/uniface/WASListener
 
 ## Notes
 
@@ -36,10 +37,10 @@ Uses the Uniface meta dictionary (uniface\misc\umeta.xml in the Uniface installa
 
 ## Development Environment Installation and Configuration
 
-1. Copy the shortcut and change the working folder **TBD**
-2. Edit your assignment file (e.g. IDE.ASN) if needed
-3. Import the source code into your repository **TBD** Use the WAS tool
-4. Build the UAR **TBD** (Compile all with build.asn)
+1. Edit the shortcuts and change the Uniface installation location (don't forget to change the /adm switch as well) and working folder if needed
+2. Edit your assignment file (e.g. IDE.ASN) if needed (probably not required as paths are relative)
+3. Import the source code into your repository using the WAS plugin.
+4. Compile the PLUGIN_SAMPLES project using the build shortcut.
 
 ## Configuration for use
 
